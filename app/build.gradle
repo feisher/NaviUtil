@@ -5,14 +5,14 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 android {
-    signingConfigs {
-        config {
-            keyAlias 'yusong'
-            keyPassword '123456'
-            storeFile file('H:/key1.jks')
-            storePassword '123456'
-        }
-    }
+//    signingConfigs {
+//        config {
+//            keyAlias 'yusong'
+//            keyPassword '123456'
+//            storeFile file('H:/key1.jks')
+//            storePassword '123456'
+//        }
+//    }
     compileSdkVersion 27
     defaultConfig {
         applicationId "com.feisher.naviutil"
