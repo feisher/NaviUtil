@@ -9,7 +9,9 @@
 ## 依赖使用方式
 
  ```java
-    implementation 'com.github.feisher:NaviUtil:1.0.2'
+    implementation 'com.github.feisher:NaviUtil:latest.integration'
+
+    "latest.integration"代表的是上面图片中对应的最新版本版本号例如 :1.0.3
  ```
 
 ## 库使用方式
