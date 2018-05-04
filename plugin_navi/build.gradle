@@ -1,6 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
-group='com.yusong.feisher'
+group='com.github.feisher'
 version = "1.0.0"
 android {
     compileSdkVersion 27
