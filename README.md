@@ -5,6 +5,9 @@
 
 ## 编写初衷
   简化各种导航重做工作，集成仿ios对话框，防止频繁改动UI，
+![](https://github.com/feisher/NaviUtil/blob/master/imgs/%E4%B8%89%E7%A7%8D%E5%9C%B0%E5%9B%BE.gif)
+![](https://github.com/feisher/NaviUtil/blob/master/imgs/%E5%8D%95%E5%9C%B0%E5%9B%BE.mp4)
+![](https://github.com/feisher/NaviUtil/blob/master/imgs/%E5%8F%8C%E5%9C%B0%E5%9B%BE.mp4)
 
 ## 依赖方式
 
@@ -15,7 +18,6 @@
     "latest.integration"代表的是上面图片中对应的最新版本版本号例如 :implementation 'com.github.feisher:NaviUtil:1.0.3'
 
     "implementation"为AS3.0以上版本依赖方式 ，低端版本请使用 compile 方式
-
 
 
 ## 代码中使用方式
