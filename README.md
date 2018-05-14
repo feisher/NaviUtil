@@ -12,7 +12,7 @@
 ## 依赖方式
 
  ```java
-    implementation 'com.github.feisher:NaviUtil:latest.integration'
+implementation 'com.github.feisher:NaviUtil:latest.integration'
 
  ```
     "latest.integration"代表的是上面图片中对应的最新版本版本号例如 :implementation 'com.github.feisher:NaviUtil:1.0.3'
@@ -32,17 +32,16 @@
      新增 导航模式设置(默认骑行模式)，可选择 公交 ，自驾 ，骑行 ，步行 ，三种地图均支持
   ##### 新功能使用方式
   ```java
-              //默认骑行模式
-              NaviUtil.with(this@MainActivity,NaviUtil.DB09).navi(sLat,sLng,"我的位置",eLat,eLng,"目的地",applicationInfo.packageName)
-              //或者加入限制的骑行模式(和上面一种用法效果一样)
-              NaviUtil.with(this@MainActivity,NaviUtil.DB09,NaviUtil.RIDE).navi(sLat,sLng,"我的位置",eLat,eLng,"目的地",applicationInfo.packageName)
-               //公交模式
-              NaviUtil.with(this@MainActivity,NaviUtil.DB09,NaviUtil.BUS).navi(sLat,sLng,"我的位置",eLat,eLng,"目的地",applicationInfo.packageName)
-               //自驾模式
-              NaviUtil.with(this@MainActivity,NaviUtil.DB09,NaviUtil.CAR).navi(sLat,sLng,"我的位置",eLat,eLng,"目的地",applicationInfo.packageName)
-               //步行模式
-              NaviUtil.with(this@MainActivity,NaviUtil.DB09,NaviUtil.WALK).navi(sLat,sLng,"我的位置",eLat,eLng,"目的地",applicationInfo.packageName)
-
+ //默认骑行模式
+NaviUtil.with(this@MainActivity,NaviUtil.DB09).navi(sLat,sLng,"我的位置",eLat,eLng,"目的地",applicationInfo.packageName)
+//或者加入限制的骑行模式(和上面一种用法效果一样)
+ NaviUtil.with(this@MainActivity,NaviUtil.DB09,NaviUtil.RIDE).navi(sLat,sLng,"我的位置",eLat,eLng,"目的地",applicationInfo.packageName)
+//公交模式
+NaviUtil.with(this@MainActivity,NaviUtil.DB09,NaviUtil.BUS).navi(sLat,sLng,"我的位置",eLat,eLng,"目的地",applicationInfo.packageName)
+//自驾模式
+ NaviUtil.with(this@MainActivity,NaviUtil.DB09,NaviUtil.CAR).navi(sLat,sLng,"我的位置",eLat,eLng,"目的地",applicationInfo.packageName)
+//步行模式
+NaviUtil.with(this@MainActivity,NaviUtil.DB09,NaviUtil.WALK).navi(sLat,sLng,"我的位置",eLat,eLng,"目的地",applicationInfo.packageName)        
   ```
 
 ### 注意：
