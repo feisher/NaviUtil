@@ -4,10 +4,10 @@
 外置导航调起，支持百度+高德+腾讯地图+浏览器
 
 ## 编写初衷
-  简化各种导航重做工作，集成仿ios对话框，防止频繁改动UI，
+  简化各种导航重做工作，集成仿ios对话框，防止频繁改动UI   
+  
 ![](https://github.com/feisher/NaviUtil/blob/master/imgs/%E4%B8%89%E7%A7%8D%E5%9C%B0%E5%9B%BE.gif)
-![](https://github.com/feisher/NaviUtil/blob/master/imgs/%E5%8D%95%E5%9C%B0%E5%9B%BE.mp4)
-![](https://github.com/feisher/NaviUtil/blob/master/imgs/%E5%8F%8C%E5%9C%B0%E5%9B%BE.mp4)
+
 
 ## 依赖方式
 
