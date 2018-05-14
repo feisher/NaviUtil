@@ -36,30 +36,4 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-    override fun onAttachedToWindow() {
-        logd( "onAttachedToWindow: ");
-        super.onAttachedToWindow()
-    }
-    override fun onRestart() {
-        logd( "onRestart: ");
-        super.onRestart()
-    }
-    override fun onPause() {
-        logd( "onPause: ");
-        super.onPause()
-    }
-    override fun onPostResume() {
-        logd( "onPostResume: ");
-        super.onPostResume()
-    }
-    override fun onStop() {
-        logd( "onStop: ");
-        super.onStop()
-    }
-
-    override fun onDestroy() {
-        logd( "onDestroy: ");
-        super.onDestroy()
-    }
-
 }
