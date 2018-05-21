@@ -41,14 +41,12 @@ public class NaviUtil {
 
     @StringDef({"bus", "car", "walk","ride"})
     @Retention(RetentionPolicy.SOURCE)
-    /** 坐标系类型*/
+    /** 导航(规划路线)方式*/
     public @interface Mode {}
     public static final String BUS = "bus";
     public static final String CAR = "car";
     public static final String WALK = "walk";
     public static final String RIDE = "ride";
-
-
 
     private static volatile NaviUtil instance;
     private NaviUtil(Activity activity,@CoorType int coorType) {
