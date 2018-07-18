@@ -15,7 +15,7 @@
 implementation 'com.github.feisher:NaviUtil:latest.integration'
 
  ```
-    "latest.integration"代表的是上面图片中对应的最新版本版本号例如 :implementation 'com.github.feisher:NaviUtil:1.0.3'
+    "latest.integration"代表的是上面图片中对应的最新版本版本号例如 :implementation 'com.github.feisher:NaviUtil:1.0.4'
 
     "implementation"为AS3.0以上版本依赖方式 ，低端版本请使用 compile 方式
 
@@ -30,7 +30,7 @@ implementation 'com.github.feisher:NaviUtil:latest.integration'
 ### 新功能上线
      从1.0.4版本起，新增支持腾讯地图 ，三种地图智能识别，用户手机只有一种时自动选择跳转，多个弹窗
      新增 导航模式设置(默认骑行模式)，可选择 公交 ，自驾 ，骑行 ，步行 ，三种地图均支持
-  ##### 新功能使用方式
+  ##### 新功能使用方式，注意这里是kotlin代码，java代码同理即可参考上方
   ```java
  //默认骑行模式
 NaviUtil.with(this@MainActivity,NaviUtil.DB09).navi(sLat,sLng,"我的位置",eLat,eLng,"目的地",applicationInfo.packageName)
