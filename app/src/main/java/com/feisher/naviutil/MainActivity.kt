@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
             NaviUtil.with(this@MainActivity,NaviUtil.DB09,NaviUtil.WALK)
                     .navi(sLat,sLng,"我的位置",eLat,eLng,"目的地",applicationInfo.packageName)
         }
-        System.exit(0)
+        //System.exit(0) //这行是手误用作测试退出的代码
 
     }
 
